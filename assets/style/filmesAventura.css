@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    color: white;
+}
+
+body {
+    height: 100vh;
+    font-size: 20px;
+    background-color: #454d6b;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #454d6b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(19, 19, 19, 0.3);
+    border-radius: 100px;
+    border: 3.5px solid #454d6b;
+}
+
+#telaPrincipal {
+    height: 100%;
+}
+
+.topo {
+    display: flex;
+    justify-content: start;
+    padding: 15px 0 10px 60px;
+    height: 80px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+}
+
+.topo h2 a {
+    font-size: 30px;
+    width: 110px;
+    color: #a13854;
+    text-decoration: none;
+}
+
+.topo img {
+    height: 75px;
+    width: 75px;
+    margin-top: -10px;
+    margin-left: -25px;
+}
+
+.sair {
+    margin-left: 950px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.centro_tela {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.barra_naveg {
+    text-align: center;
+    padding: 88px 5px 88px 5px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+}
+
+.naveg {
+    text-decoration: none;
+}
+
+.barra_naveg ul li {
+    text-align: center;
+    list-style: none;
+    margin: 22px 20px 22px;
+}
+
+.tela_estilos {
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.estilos ul {
+    margin-top: 20px;
+}
+
+.estilos ul li {
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.estilos ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgba(19, 19, 19, 0.3);
+    border-radius: 5px;
+
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-left: 36%;
+    border-bottom: rgba(19, 19, 19, 0.4) 1px  solid;
+    width: 25%;
+    opacity: 0.75;
+    
+}
+
+.nome_estilo {
+    filter: drop-shadow(15px 10px 5px #000);
+
+}
+
+
+.filmes {
+    text-align: center;
+
+}
+
+.filmes ul {
+    display: flex;
+    margin: 35px 20px 55px 20px;
+}
+
+.filmes ul li {
+    list-style: none;
+    margin-right: 30px;
+    height: 364px;
+    width: 230px;
+    text-align: center;
+
+}
+
+.filmes ul li a {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.filmes ul li a img {
+    height: 364px;
+    width: 230px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape {
+    padding-top: 20px;
+    text-align: start;
+    height: 50px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+}
+
+.rodape p {
+    margin-left: 150px;
+}

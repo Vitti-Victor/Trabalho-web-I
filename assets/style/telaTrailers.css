@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    color: white;
+}
+
+body {
+    height: 100vh;
+    font-size: 20px;
+    background-color: #454d6b;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #454d6b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(19, 19, 19, 0.3);
+    border-radius: 100px;
+    border: 3.5px solid #454d6b;
+}
+
+#telaPrincipal {
+    height: 100%;
+}
+
+.topo {
+    display: flex;
+    justify-content: start;
+    padding: 15px 0 10px 60px;
+    height: 80px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+}
+
+.topo h2 a {
+    font-size: 30px;
+    width: 110px;
+    color: #a13854;
+    text-decoration: none;
+}
+
+.topo img {
+    height: 75px;
+    width: 75px;
+    margin-top: -10px;
+    margin-left: -25px;
+}
+
+.sair {
+    margin-left: 950px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.centro_tela {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.barra_naveg {
+    text-align: center;
+    padding: 88px 5px 88px 5px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+}
+
+.naveg {
+    text-decoration: none;
+}
+
+.barra_naveg ul li {
+    text-align: center;
+    list-style: none;
+    margin: 22px 20px 22px;
+}
+
+.trailer{
+    width: 100%;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-left: 36%;
+    border-bottom: rgba(19, 19, 19, 0.4) 1px  solid;
+    width: 25%;
+    opacity: 0.75;
+    margin-bottom: 25px;
+    
+}
+
+.titulo_pagina {
+    filter: drop-shadow(15px 10px 5px #000);
+    text-align: center;
+}   
+
+.trailer_lista_1{
+    display: flex;
+    justify-content: center;
+}
+
+.mercenario{
+    margin: 25px;
+}
+
+.titulo_trailer1{
+    font-size: 20px;
+    width: 250px;
+    opacity: 0.8;
+
+}
+
+.trailer_mercenario{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.missao{
+    margin: 25px;
+
+}
+
+.titulo_trailer2{
+    font-size: 20px;
+    width: 300px;
+    opacity: 0.8;
+    margin-top: -25px;
+}
+
+.trailer_missao{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.trailer_lista_2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Transformers{
+    margin: 25px;
+}
+
+.titulo_trailer3{
+    font-size: 20px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.trailer_transformers{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.IndianaJones{
+    margin: 25px;
+}
+
+.titulo_trailer4{
+    font-size: 20px;
+    width: 210px;
+    opacity: 0.8;
+    margin-top: -25px;
+
+}
+
+.trailer_IndianaJones{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.trailer_lista_3{
+    display: flex;
+    justify-content: center;
+}
+
+.SuperMario{
+    margin: 25px;
+}
+
+.titulo_trailer5{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+.trailer_SuperMario{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.GatodeBotas2{
+    margin: 25px;
+
+}
+
+.titulo_trailer6{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+    margin-top: -25px;
+
+}
+
+.trailer_GatodeBotas2{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.trailer_lista_4{
+    display: flex;
+    justify-content: center;
+}
+
+.OPorteiro{
+    margin: 25px;
+}
+
+.titulo_trailer7{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+.trailer_OPorteiro{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.ThePotemkinists{
+    margin: 25px;
+}
+
+.titulo_trailer8{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+.trailer_ThePotemkinists{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.trailer_lista_5{
+    display: flex;
+    justify-content: center;
+}
+
+.OMeuPaiÉUmPerigo{
+    margin: 25px;
+}
+
+.titulo_trailer9{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+.trailer_OMeuPaiÉUmPerigo{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.FiveNightsatFreddys{
+    margin: 25px;
+
+}
+
+.titulo_trailer10{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+    margin-top: -25px;
+}
+
+.trailer_FiveNightsatFreddys{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.trailer_lista_6{
+    display: flex;
+    justify-content: center;
+}
+
+.Dracula{
+    margin: 25px;
+}
+
+.titulo_trailer11{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+    margin-top: -25px;
+}
+
+.trailer_Dracula{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+.FaleComigo{
+    margin: 25px;
+}
+
+.titulo_trailer12{
+    font-size: 20px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+.trailer_FaleComigo{
+    margin: 10px;
+    width: 400px; 
+    height: 315px;
+}
+
+
+
+.rodape {
+    padding-top: 20px;
+    text-align: start;
+    height: 60px;
+    background-color: rgba(19, 19, 19, 0.3);
+
+
+}
+
+.rodape p {
+    margin-left: 150px;
+}

@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    color: white;
+}
+
+body {
+    height: 108vh;
+    background-color: #454d6b;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #454d6b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(19, 19, 19, 0.3);
+    border-radius: 100px;
+    border: 3.5px solid #454d6b;
+}
+
+#cadastro {
+    display: flex;
+    justify-content: center;
+    height: 145%;
+}
+
+.card {
+    padding: 30px;
+    background-color: rgba(19, 19, 19, 0.3);
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+.caixa {
+    margin: 10px 35px;
+    width: 500px;
+}
+
+.all {
+
+    margin: 55px;
+}
+
+.card_escrita_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.card_escrita {
+    opacity: 0.78;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.card_logo {
+    font-size: 30px;
+    width: 110px;
+    color: #a13854;
+    margin-left: 200px;
+
+
+}
+
+#img_logo {
+    margin-top: -55px;
+    margin-right: -24px;
+    display: flex;
+    justify-content: end;
+}
+
+#img_logo img {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.card_user label {
+    display: block;
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+
+}
+
+.card_user input {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 60vh;
+    outline: none;
+    margin-top: 5px;
+    opacity: 0.8;
+
+}
+
+.card_end label {
+    display: block;
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.card_end input {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 60vh;
+    outline: none;
+    margin-top: 5px;
+    opacity: 0.8;
+
+}
+
+.card_email label {
+    display: block;
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.card_email input {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 60vh;
+    outline: none;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.card_cidade label {
+    display: block;
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.card_cidade input {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 60vh;
+    outline: none;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.card_estado {
+    display: flex;
+    justify-content: start;
+}
+
+.card_estado label {
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.card_estado_selec {
+    opacity: 0.8;
+    color: white;
+    background-color: #454d6b;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card_sexo label {
+    display: inline;
+    opacity: 0.8;
+    color: white;
+    text-align: start;
+}
+
+.card_sexo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.card_sexo input {
+    margin: 0 0 0 10px;
+    height: 15px;
+    width: 15px;
+    opacity: 0.8;
+
+}
+
+.card_Escolha label {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    opacity: 0.8;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.separa {
+    text-align: start;
+}
+
+.card_Escolha input {
+    height: 15px;
+    width: 15px;
+    margin: 0 0 20px 15px;
+    opacity: 0.8;
+}
+
+.card_password label {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    opacity: 0.8;
+    color: white;
+}
+
+.card_password input {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 60vh;
+    outline: none;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.click {
+    text-align: center;
+}
+
+.buttom {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttom_t {
+    text-decoration: none;
+    background-color: #a13854;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-left: -20px;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #a13854;
+    border-radius: 5px;
+    padding: 10px 60px;
+}

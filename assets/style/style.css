@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-color: #454d6b;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    padding: 60px;
+    background-color: rgba(19, 19, 19, 0.3);
+    width: 370px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.log{
+    text-align: start;
+    opacity: 0.78;
+    font-size: 18px;
+    margin-bottom: 55px;
+    border-bottom: 1px solid white;
+    width: 70px;
+    color: white;
+}
+
+.card_user label{
+    font-size: 15px;
+    display: block;
+    opacity: 0.8;
+    color: white;
+
+
+}
+
+.card_user input{
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 48vh;
+    outline: none;
+    margin-top: 10px;
+    opacity: 0.8 ;
+
+}
+
+.card_password label{
+    font-size: 15px;
+    display: block;
+    opacity: 0.8;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.card_password input{
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 48vh;
+    outline: none;
+    margin-top: 10px;
+    opacity: 0.8 ;
+
+}
+
+.buttom{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.buttom_t{
+    padding: 10px 60px;
+    background-color: #a13854;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.link a{
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+
